@@ -8,15 +8,16 @@ export default function ViewAllCarDetails() {
             id: 1,
             imageUrl: 'https://res.cloudinary.com/dvzxk9ypm/image/upload/v1723127736/xq6wjz3zqukm80xxpbpr.png',
 
+
         },
         {
             id: 2,
-            imageUrl: 'https://res.cloudinary.com/dvzxk9ypm/image/upload/v1723127736/xq6wjz3zqukm80xxpbpr.png',
+            imageUrl: 'https://res.cloudinary.com/dvzxk9ypm/image/upload/v1723156923/redcar1_rqazgp.jpg',
 
         },
         {
             id: 3,
-            imageUrl: 'https://res.cloudinary.com/dvzxk9ypm/image/upload/v1723127736/xq6wjz3zqukm80xxpbpr.png',
+            imageUrl: 'https://res.cloudinary.com/dvzxk9ypm/image/upload/v1723156898/black3_zvtpwn.jpg',
 
         },
 
@@ -36,7 +37,7 @@ export default function ViewAllCarDetails() {
                             {contentData.map((contentItem) => (
                                 <div key={contentItem.id}>
                                     <img src={contentItem.imageUrl} alt={contentItem.name}
-                                         style={{width: '195px', borderRadius: '10px'}}/>
+                                         style={{width: '195px', borderRadius: '10px',height:'118px'}}/>
                                 </div>
                             ))}
                         </div>
