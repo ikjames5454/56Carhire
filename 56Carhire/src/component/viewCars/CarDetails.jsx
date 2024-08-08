@@ -1,5 +1,4 @@
-import style from '../viewCars/carDetails.module.css'
-import {Button} from "@mui/material";
+import style from '../viewCars/carDetails.module.css';
 export default function CarDetails() {
     const carDetails = [
         {
@@ -47,7 +46,7 @@ export default function CarDetails() {
                         fontSize: '14px',
                         fontWeight: 400,
                         lineHeight: '24px',
-                        backgroundColor: '#007AFF',
+                        backgroundColor: '#AD3307',
                         width: "488px",
                         height: "41px",
                         padding: "12px 10px",
