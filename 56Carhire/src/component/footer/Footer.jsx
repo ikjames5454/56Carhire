@@ -3,7 +3,7 @@ import style from '../footer/footer.module.css';
 
 const Footer = () => {
     return (
-        <div className="bg-[#f2f8ff] p-28">
+        <div id="footer" className="bg-[#fff4e5] p-28">
             <div className={`${style.bothlogoandicon}`}>
                 <div className="mt-3">
                     <CarIcon />
@@ -20,6 +20,8 @@ const Footer = () => {
 
             <div className="mt-24">
                 <p className={`${style.year}`}>© 2023. Powered by <span className={`${style.year1}`}>56Carhire</span>. All Rights Reserved.</p>
+
+                
             </div>           
         </div>  
 
