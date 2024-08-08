@@ -1,5 +1,8 @@
+
+
 export const ROUTES = [
     {
-        path: '',
+        path: '/',
+        
     }
 ]
