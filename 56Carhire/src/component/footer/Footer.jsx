@@ -20,6 +20,8 @@ const Footer = () => {
 
             <div className="mt-24">
                 <p className={`${style.year}`}>© 2023. Powered by <span className={`${style.year1}`}>56Carhire</span>. All Rights Reserved.</p>
+
+                
             </div>           
         </div>  
 
