@@ -9,7 +9,7 @@ export const Route = [
         element: <Layout />,
         children: [
             {
-                path: '/',
+                path: '/hero',
                 element:  <Hero />, 
             },
             {

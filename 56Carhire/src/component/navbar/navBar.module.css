@@ -1,0 +1,32 @@
+.logo {
+    font-family: Aeonik;
+    font-size: 20px;
+    font-weight: 500;
+    color: #007AFF;
+    
+}
+.login {
+    width: Hug (119px)px;
+    height: Hug (41px)px;
+    padding: 12px 10px 12px 10px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #007AFF;
+    font-family: Aeonik;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    justify-content: flex-end;
+
+}
+.companyName{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    line-height: 2px;
+    align-items: center;
+    text-align: center;
+}
