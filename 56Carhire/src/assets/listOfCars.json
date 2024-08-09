@@ -1,7 +1,7 @@
 [
-    {"id": 1, "brand": "Toyota", "type": "Family Car", "model": "Camry", "imageUrl": "https://media.istockphoto.com/id/905266220/photo/toyota-camry-in-motion.jpg?s=612x612&w=0&k=20&c=QdZEGEqUZz9PANdkgrJLENekgoW9H56gkD7PXzgsKDM=", "price": 15000},
-    {"id": 2, "brand": "Ford", "type": "SUV", "model": "Explorer", "imageUrl": "https://media.ed.edmunds-media.com/ford/explorer/2023/oem/2023_ford_explorer_4dr-suv_king-ranch_fq_oem_1_1600.jpg", "price": 20000},
-    {"id": 3, "brand": "Honda", "type": "Family Car", "model": "Civic", "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREpJI4_H85dfuh-IxwJjJasTsCGASHSzjUow&s", "price": 14000},
+    {"id": 1, "brand": "Toyota", "type": "Family Car", "model": "Camry", "imageUrl": "https://res.cloudinary.com/dvzxk9ypm/image/upload/v1723127736/xq6wjz3zqukm80xxpbpr.png", "price": 15000},
+    {"id": 2, "brand": "Ford", "type": "SUV", "model": "Explorer", "imageUrl": "https://res.cloudinary.com/dvzxk9ypm/image/upload/v1723127736/xq6wjz3zqukm80xxpbpr.png", "price": 20000},
+    {"id": 3, "brand": "Honda", "type": "Family Car", "model": "Civic", "imageUrl": "https://res.cloudinary.com/dvzxk9ypm/image/upload/v1723156886/black2_e7gaq5.jpg", "price": 14000},
     {"id": 4, "brand": "Chevrolet", "type": "Pickup", "model": "Silverado", "imageUrl": "https://www.motorbiscuit.com/wp-content/uploads/2022/06/Alternatives-to-the-Chevrolet-Silverado.jpg?strip=all&quality=89", "price": 25000},
     {"id": 5, "brand": "Mercedes-Benz", "type": "Van", "model": "Sprinter", "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4IDwFwCT-_RX-OMIMDY-KhWAdDX5mJ8F6HA&s", "price": 18000},
     {"id": 6, "brand": "Toyota", "type": "Minivan", "model": "Sienna", "imageUrl": "https://bakersfieldnow.com/resources/media2/16x9/full/1015/center/80/349d8ef2-263b-409d-a9e8-7ab9b73506f6-large16x9_2015_Toyota_Sienna_LTD_006.jpg", "price": 16000},
