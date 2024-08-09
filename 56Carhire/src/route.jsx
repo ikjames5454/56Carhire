@@ -15,6 +15,9 @@ import FilterRoute from "./page/FilterRoute/index.jsx";
 
 ;
 
+import ViewAllCarDetails from "./component/viewCars/ViewAllCarDetails.jsx";
+import CarDetails from "./component/viewCars/CarDetails.jsx";
+import MoreCars from "./component/morecars/MoreCars.jsx";
 
 export const Route = [
     {
@@ -71,9 +74,19 @@ export const Route = [
                 ]
             },
           
-           
-            
-           
+        
+            {
+                path: '/viewCars',
+                element:  <ViewAllCarDetails />,
+            },
+            {
+                path: '/carDetails',
+                element:  <CarDetails />,
+            },
+            {
+                path: '/moreCars',
+                element:  <MoreCars />,
+            }
         ]
 
     },
