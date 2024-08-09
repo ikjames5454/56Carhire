@@ -1,5 +1,7 @@
 import styles from './moreCars.module.css';
-export default function MoreCars() {
+import Condition from '../condition/Condition';
+
+export default function MoreCars({category}) {
     const moreCars = [
         {
             id: 1,
@@ -128,16 +130,17 @@ export default function MoreCars() {
             <div className={"font-neue-montreal text-[32px] font-medium leading-[46.4px] tracking-[-0.005em] text-left text-custom-dark mt-20"}>More vehicles in this category</div>
             <div className={'mt-10'}>
                 {/*items-center flex justify-center mt-10*/}
-                <div className="grid-cols-4 grid tgrid-rows-5 gap-6 custom-scroll-bar">
-                    {moreCars.map(car => (
+                {/* <div className="grid-cols-4 grid tgrid-rows-5 gap-6 custom-scroll-bar"> */}
+                    {/* {moreCars.map(car => (
                         <div key={car.id} className="car-item">
                             <img src={car.imageUrl} alt={car.name}
                                  style={{width: '285px', borderRadius: '12px', height: '165px'}}/>
                             <span className={styles.name}>{car.name}</span>
                             <div className={styles.Convertible}>{car.Convertible}</div>
                         </div>
-                    ))}
-                </div>
+                    ))} */}
+                    <Condition type={category} length={0}/>
+                {/* </div> */}
             </div>
         </>
     );

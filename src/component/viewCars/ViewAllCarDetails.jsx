@@ -13,6 +13,8 @@ export default function ViewAllCarDetails() {
   if (!car) {
     return <h2>Car not found</h2>;
   }
+
+  console.log("Car: ",car.type);
   
     const contentData = [
         {
@@ -38,7 +40,7 @@ export default function ViewAllCarDetails() {
             <Divider/>
             <div className={'px-24 py-10'}>
                 <div className={'flex gap-14'}>
-                    <div className={'flex-col'}>
+                    <div key={car.id} className={'flex-col'}>
                         <img
                             src={car.imageUrl}
                             alt="carOne"
@@ -58,7 +60,7 @@ export default function ViewAllCarDetails() {
                     </div>
                     <div className={'-mt-5'}><CarDetails brand={car.brand} model={car.model} categories={car.type} price={car.price}/></div>
                 </div>
-                <MoreCars/>
+                <MoreCars category={car.type}/>
             </div>
         </div>
     );
