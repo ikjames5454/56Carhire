@@ -3,7 +3,8 @@ import style from './navBar.module.css';
 
 const Navbar = () => {
     return(
-        <div id="navbar" className="bg-white flex flex-row justify-between px-24 py-4">
+        // <div id="navbar" className="bg-white flex justify-between px-24 py-4">
+        <div id="navbar" className="bg-white flex flex-row sm:flex-row justify-between px-4 py-2 sm:px-24 sm:py-4">
             <div className={`${style.companyName}`}>
                 <div className='mt-1'>
                     <SmallCarIcon />

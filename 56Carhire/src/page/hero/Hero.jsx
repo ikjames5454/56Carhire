@@ -7,11 +7,14 @@ const Hero = () => {
     return (
         <section>
         <div id='hero' className="bg-[#fff4e5] py-[86px]">
-            <div className="flex justify-between px-[100px] items-center">
+            {/* <div className="flex justify-between px-[100px] items-center"> */}
+            <div className="flex flex-col md:flex-row justify-between px-[20px] md:px-[100px] items-start md:items-center">
                 <div className="">
                     <div className="bg-white flex flex-row gap-4 w-fit">
-                        <Star />
-                        <span className={`${style.rate}`}>
+                        <div className="mt-1">
+                            <Star />
+                        </div>
+                        <span className={`${style.rate} lg:text-xl`}>
                             Top #1 Car Rental in Nigeria
                         </span>
                     </div>
