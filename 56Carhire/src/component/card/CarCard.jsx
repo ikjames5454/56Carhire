@@ -5,14 +5,16 @@ import { Card, CardContent, CardHeader, CardMedia, Typography } from '@mui/mater
 const CarCard = ({car}) => {
   return (
     <Card sx={{ maxWidth: 420, border:"none", borderColor:"none" }}>
-    <CardMedia
+    {/* <CardMedia
       component="img"
-      height={140} 
-        width="100%"
+      // height={140} 
+      //   width="100%"
       sx={{borderRadius: 5}}
       image={car.imageUrl}
       alt={car.model}
-    />
+    /> */}
+    <img src={car.imageUrl} alt={car.name}
+                                 style={{width: '400px', borderRadius: '12px', height: '250px'}}/>
     <CardContent>
       <Typography gutterBottom variant="h5" component="div">
         {car.brand} {car.model}
