@@ -14,28 +14,31 @@ export default function CarDetails({brand,model,categories,price}) {
                 'high-revving engine, prioritizing driving fun over sheer power. Its driver-focused interior and overall value make it a favorite among driving enthusiasts.',
             price: '₦30,000/hr'
         },
+
+    
     ];
+     const status = 'Hired'
 
     return (
         <div className={'p-10'}>
             {carDetails.map(car => (
                 <div key={car.id}>
                     <span
-                        className={`${style.status} ${car.status === 'Hired' ? style.hired : style.available}`}
+                        className={`${style.status} ${status === 'Hired' ? style.hired : style.available}`}
                     >
-                        {car.status}
+                        {status}
                     </span>
                     <div className={style.title}>
-                        <span> {car.title}</span>
+                        <span> {brand + " " + model}</span>
                     </div>
                     <div className='flex flex-row space-x-4'>
-                        <span className={style.categories}>{car.sportCar}</span>
+                        <span className={style.categories}>{categories}</span>
                         <span className={style.categories}>{car.automatic}</span>
                         <span className={style.categories}>{car.seats}</span>
 
                     </div>
                     <div className={style.content}>{car.content}</div>
-                    <div className={`${style.price} mt-7`}>{car.price}</div>
+                    <div className={`${style.price} mt-7`}> {"₦" + price + "/hr"}</div>
                 </div>
             ))}
             <div className='mt-12'>

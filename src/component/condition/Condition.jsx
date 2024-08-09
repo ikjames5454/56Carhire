@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import ListOfCars from "../../assets/listOfCars.json"
 import {Grid } from '@mui/material';
 import CarCard from '../../component/card/CarCard';
+import { NavLink } from 'react-router-dom';
 
 
 const Condition = ({type,length}) => {
@@ -15,7 +16,11 @@ const Condition = ({type,length}) => {
       ) : (
         cars.map((car) => (
           <Grid item xs={10} sm={6} md={4} lg={3} xl={3} key={car.id}>
+            <NavLink
+            to={`/viewCars/${car.id}`}
+            >
             <CarCard car={car} />
+            </NavLink>
           </Grid>
         ))
       )}
