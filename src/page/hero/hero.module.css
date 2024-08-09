@@ -1,0 +1,22 @@
+.rate {
+    font-family: Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #1A1A1A;
+}
+.description {
+    font-family: Neue Montreal;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1A1A1A;
+}
+.description1 {
+    font-family: Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* text-align: center; */
+    color: #1A1A1AB2;   
+
+}

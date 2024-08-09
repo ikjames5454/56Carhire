@@ -1,0 +1,39 @@
+.logoName {
+font-family: Aeonik;
+font-size: 50px;
+font-weight: 500;
+line-height: 60px;
+color:  #AD3307;
+}
+.social {
+    font-family: Neue Montreal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #667185;
+    padding-bottom: 4px; /* Adjust padding as needed */
+    border-bottom: 2px solid #667185; /* Adjust thickness and color as needed */
+    display: inline-block;
+}
+.bothlogoandicon{
+    display: flex;
+    flex-direction: row;
+    
+}
+.year {    
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.2px;
+    text-align: left;
+    color: #344054;
+    
+}
+.year1 {
+    font-family: Neue Montreal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23.2px;
+    color: #344054;
+}
