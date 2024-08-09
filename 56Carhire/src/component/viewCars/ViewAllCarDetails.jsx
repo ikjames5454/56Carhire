@@ -56,7 +56,7 @@ export default function ViewAllCarDetails() {
                             }
                         </div>
                     </div>
-                    <div className={'-mt-5'}><CarDetails/></div>
+                    <div className={'-mt-5'}><CarDetails brand={car.brand} model={car.model} categories={car.type} price={car.price}/></div>
                 </div>
                 <MoreCars/>
             </div>

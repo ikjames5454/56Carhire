@@ -1,5 +1,5 @@
 import style from '../viewCars/carDetails.module.css';
-export default function CarDetails() {
+export default function CarDetails({brand,model,categories,price}) {
     const carDetails = [
         {
             id: 1,
