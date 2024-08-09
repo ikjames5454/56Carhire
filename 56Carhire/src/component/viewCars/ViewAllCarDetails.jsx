@@ -1,8 +1,19 @@
 import CarDetails from "./CarDetails.jsx";
 import {Divider} from "@mui/material";
 import MoreCars from "../morecars/MoreCars.jsx";
+import ListOfCars from "../../assets/listOfCars.json"
+import { useParams } from 'react-router-dom';
+
 
 export default function ViewAllCarDetails() {
+
+    const { id } = useParams();
+  const car = ListOfCars.find((car) => car.id === parseInt(id));
+
+  if (!car) {
+    return <h2>Car not found</h2>;
+  }
+  
     const contentData = [
         {
             id: 1,
@@ -29,17 +40,20 @@ export default function ViewAllCarDetails() {
                 <div className={'flex gap-14'}>
                     <div className={'flex-col'}>
                         <img
-                            src="https://res.cloudinary.com/dvzxk9ypm/image/upload/v1723127736/xq6wjz3zqukm80xxpbpr.png"
+                            src={car.imageUrl}
                             alt="carOne"
+                            style={{width:"611px",height:"340px", borderRadius:"12px"}}
                         />
 
                         <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginTop: '20px'}}>
-                            {contentData.map((contentItem) => (
-                                <div key={contentItem.id}>
-                                    <img src={contentItem.imageUrl} alt={contentItem.name}
+                            {
+                            // contentData.map((contentItem) => (
+                                <div key={car.id}>
+                                    <img src={car.imageUrl} alt={car.type}
                                          style={{width: '195px', borderRadius: '10px',height:'118px'}}/>
                                 </div>
-                            ))}
+                            // ))
+                            }
                         </div>
                     </div>
                     <div className={'-mt-5'}><CarDetails/></div>

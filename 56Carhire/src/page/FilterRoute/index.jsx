@@ -11,12 +11,14 @@ import SUV from "../filter/SUV.jsx";
 import Truck from "../filter/Truck.jsx";
 import Van from "../filter/Van.jsx";
 import Wagon from "../filter/Wagon.jsx"
+import ViewAllCarDetails from '../../component/viewCars/ViewAllCarDetails.jsx';
 
 const FilterRoute = () => {
   return (
     <div>
         <Routes>
             <Route path="/" element={<All />} />
+            <Route path="/viewCars/:id" element={<ViewAllCarDetails/>} />
             <Route path='/bus' element={<Bus/>} />
             <Route path='/convertible' element={<Convertible />} />
             <Route path="/family-car" element={<FamilyCar />} />

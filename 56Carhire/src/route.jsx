@@ -76,7 +76,7 @@ export const Route = [
           
         
             {
-                path: '/viewCars',
+                path: '/viewCars/:id',
                 element:  <ViewAllCarDetails />,
             },
             {

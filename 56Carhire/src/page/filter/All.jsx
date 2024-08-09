@@ -10,7 +10,12 @@ const All = () => {
    <Grid container spacing={2} marginTop={6} className='px-20'>
      {ListOfCars.map((car) => (
        <Grid item xs={10} sm={6} md={4} lg={3} xl={3} key={car.id}>
-         <CarCard car={car} />
+        <NavLink
+          to={`/viewCars/${car.id}`}
+          style={{ textDecoration: 'none' }}
+        >
+        <CarCard car={car} />
+        </NavLink>
        </Grid>
      ))}
    </Grid>
