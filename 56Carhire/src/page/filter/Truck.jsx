@@ -1,8 +1,11 @@
 import React from 'react'
+import Condition from '../../component/condition/Condition'
 
 const Truck = () => {
   return (
-    <div>Truck</div>
+    <div>
+      <Condition type='Truck' length={0} />
+    </div>
   )
 }
 

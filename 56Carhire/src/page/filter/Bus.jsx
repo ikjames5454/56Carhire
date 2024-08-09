@@ -1,8 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
+import Condition from '../../component/condition/Condition';
 
 const Bus = () => {
+
+
   return (
-    <div>Bus</div>
+   <div>
+     <Condition type='Bus' length={0} />
+   </div>
   )
 }
 

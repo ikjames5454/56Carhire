@@ -17,8 +17,8 @@ const FilterRoute = () => {
     <div>
         <Routes>
             <Route path="/" element={<All />} />
-            <Route path="/bus" element={<Bus />} />
-            <Route path="/convertible" element={<Convertible />} />
+            <Route path='/bus' element={<Bus/>} />
+            <Route path='/convertible' element={<Convertible />} />
             <Route path="/family-car" element={<FamilyCar />} />
             <Route path="/luxury-car" element={<LuxuryCar />} />
             <Route path="/mini-van" element={<MiniVan />} />
