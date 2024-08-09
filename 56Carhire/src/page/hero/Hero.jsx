@@ -34,7 +34,7 @@ const Hero = () => {
             </div>  
                   
         </div>
-        <div className=" mt-5">
+        <div className=" mt-5 mb-10">
             <ListPage/>
          </div>     
         </section>
@@ -43,5 +43,3 @@ const Hero = () => {
 export default Hero;
 
 
-{/* <div className="flex flex-row justify-between"> */}
-            {/* </div> */}
