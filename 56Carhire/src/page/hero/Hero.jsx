@@ -1,11 +1,13 @@
 import Star from "../../assets/icons";
 import style from './hero.module.css';
 import Frame from '../../assets/Frame 14.png';
+import ListPage from "../ListPage";
 
 const Hero = () => {
     return (
-        <div id="hero" className="bg-[#fff4e5] py-[86px]">
-            <div className="flex justify-between px-[106px] items-center">
+        <section>
+        <div id='hero' className="bg-[#f2f8ff] py-[86px]">
+            <div className="flex justify-between px-[121px] items-center">
                 <div className="">
                     <div className="bg-white flex flex-row gap-4 w-fit">
                         <Star />
@@ -29,12 +31,15 @@ const Hero = () => {
                 <div className="">
                     <img src={Frame} className="w-[482px] h-[342px]"/>
                 </div>  
-            </div>                 
+            </div>  
+                  
         </div>
+        <div className=" mt-5 mb-10">
+            <ListPage/>
+         </div>     
+        </section>
     )
 }
 export default Hero;
 
 
-{/* <div className="flex flex-row justify-between"> */}
-            {/* </div> */}
