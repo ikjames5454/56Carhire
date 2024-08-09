@@ -1,0 +1,61 @@
+.status{
+    font-family: Neue Montreal;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.4px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    padding: 0 8px 0 8px;
+    gap: 8px;
+    border-radius: 12px;
+}
+
+.hired {
+    color: #AD3307;
+    background-color: #FFECE5;
+}
+
+.available {
+    color: #000000;
+    background-color: #F2F2F7;
+}
+.title{
+    font-family: Neue Montreal;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    color: #1A1A1A;
+    margin-top: 18px;
+}
+.categories{
+    font-family: Neue Montreal;
+    font-size: 12px;
+    font-weight: 550;
+    line-height: 17.4px;
+    letter-spacing: -0.005em;
+    color:#000000;
+    background-color: #F2F2F7;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 8px 0 8px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+.content{
+    font-family: Neue Montreal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 458px;
+    color:#1A1A1AB2;
+    margin-top: 10px;
+}
+.price{
+    font-family: Neue Montreal;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #1A1A1A;
+}

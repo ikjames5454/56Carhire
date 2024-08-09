@@ -7,12 +7,10 @@
     
 }
 .login {
-    width: Hug (119px)px;
-    height: Hug (41px)px;
+    width: 119px;
+    height:  41px;
     padding: 12px 10px 12px 10px;
     gap: 10px;
-    border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
     background-color: #AD3307;
     font-family: Aeonik;
     font-size: 14px;
