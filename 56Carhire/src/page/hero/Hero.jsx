@@ -6,8 +6,8 @@ import ListPage from "../ListPage";
 const Hero = () => {
     return (
         <section>
-        <div id='hero' className="bg-[#f2f8ff] py-[86px]">
-            <div className="flex justify-between px-[121px] items-center">
+        <div id='hero' className="bg-[#fff4e5] py-[86px]">
+            <div className="flex justify-between px-[100px] items-center">
                 <div className="">
                     <div className="bg-white flex flex-row gap-4 w-fit">
                         <Star />
